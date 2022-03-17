@@ -11,18 +11,18 @@
 
 
 
-#define PUBLIC_IP		"142.114.78.197"		// http://142.114.78.197:8888
-#define PRIVATE_IP		"192.168.2.16"
-#define BUFF_SIZE   	(1024 << 6)
-#define RECVBUFF_SIZE   BUFF_SIZE
-#define MAX_CONN    	SOMAXCONN
-#define SERVICE_PORT  	(8888)
+#define PUBLIC_IP		"192.168.2.11"
+#define PRIVATE_IP		"192.168.2.11"
+#define BUFF_SIZE   		(1024 << 6)
+#define RECVBUFF_SIZE   	BUFF_SIZE
+#define MAX_CONN    		SOMAXCONN
+#define SERVICE_PORT  		(8888)
 #define MAX_THREAD		(1024)
 
-#define NOTFOUND_HTML_FILE				"./src/webpage/404.html"
+#define NOTFOUND_HTML_FILE			"./src/webpage/404.html"
 #define NOTFOUND_RESPONSE_BUFF_SIZE		(2048)
 #define BADREQUEST_HTML_FILE			"./src/webpage/400.html"
-#define BADREQUEST_RESPONSE_BUFF_SIZE	(2048)
+#define BADREQUEST_RESPONSE_BUFF_SIZE		(2048)
 
 
 // #define OUTPUT_MSG_TO_FILE
