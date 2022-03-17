@@ -12,7 +12,6 @@
 
 // clang -o $(pwd)/proxy -Wall -Wextra $(pwd)/proxy.c $(pwd)/ClientHandle.c $(pwd)/httpHeader.c
 // clang -o $(pwd)/proxy -Wall -Wextra -Werror $(pwd)/proxy.c $(pwd)/ClientHandle.c $(pwd)/httpHeader.c
-// clang -o proxy proxy.c ClientHandle.c
 
 static int initSock (void);
 int initBadRequestResponse (void);
